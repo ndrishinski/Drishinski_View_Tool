@@ -6,12 +6,12 @@ require "drishinski_view_tool/version"
 Gem::Specification.new do |spec|
   spec.name          = "drishinski_view_tool"
   spec.version       = DrishinskiViewTool::VERSION
-  spec.authors       = ["TODO: Write your name"]
+  spec.authors       = ["Nick Drishinski"]
   spec.email         = ["ndrishinski@yahoo.com"]
 
   spec.summary       = %q{Various view specific methods for applications I use}
   spec.description   = %q{Provides generated HTML data for Rails applications.}
-  spec.homepage      = "https://devcamp.com"
+  spec.homepage      = "https://github.com/ndrishinski/Drishinski_View_Tool"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
